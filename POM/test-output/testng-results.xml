@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+    <line>
+      <![CDATA[STEP5]]>
+    </line>
+    <line>
+      <![CDATA[STEP6]]>
+    </line>
+    <line>
+      <![CDATA[STEP7]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28100" started-at="2015-03-24T04:42:15Z" finished-at="2015-03-24T04:42:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28100" started-at="2015-03-24T04:42:15Z" finished-at="2015-03-24T04:42:43Z">
+      <class name="Tests.signInTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Tests.signInTest@53c2a7f5]" name="setUp" is-config="true" duration-ms="4739" started-at="2015-03-23T21:42:15Z" finished-at="2015-03-23T21:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:Tests.signInTest@53c2a7f5]" name="logIn" duration-ms="10349" started-at="2015-03-23T21:42:20Z" finished-at="2015-03-23T21:42:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="gotoApp()[pri:0, instance:Tests.signInTest@53c2a7f5]" name="gotoApp" duration-ms="4525" started-at="2015-03-23T21:42:30Z" depends-on-methods="Tests.signInTest.logIn" finished-at="2015-03-23T21:42:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- gotoApp -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Tests.signInTest@53c2a7f5]" name="launchApp" duration-ms="7098" started-at="2015-03-23T21:42:34Z" depends-on-methods="Tests.signInTest.gotoApp" finished-at="2015-03-23T21:42:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP5]]>
+            </line>
+            <line>
+              <![CDATA[STEP6]]>
+            </line>
+            <line>
+              <![CDATA[STEP7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:Tests.signInTest@53c2a7f5]" name="logOut" duration-ms="1364" started-at="2015-03-23T21:42:42Z" depends-on-methods="Tests.signInTest.launchApp" finished-at="2015-03-23T21:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.signInTest@53c2a7f5]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-03-23T21:42:43Z" finished-at="2015-03-23T21:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.signInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

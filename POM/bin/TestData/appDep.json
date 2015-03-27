@@ -1,0 +1,14 @@
+{	
+	
+	"depName":"run28",
+	"depDesc":"Job launching through scripting",
+	"appVersion":"",
+	"tags":"",
+	"depEnv":"R_Small",
+	"depCloud":"MyOpenstack RegionOne",
+	"depAging":"",
+	"metaData":""
+	
+}
+
+
